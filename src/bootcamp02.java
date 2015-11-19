@@ -11,7 +11,7 @@ public class bootcamp02 {
 	{
 	    int smallest_value = smallest[0];
 	    int current_value=0;
-		for(int i =1; i<smallest.length;i++)
+		for(int i =1; i<smallest.length;++i)
 		{
 			
 			current_value = smallest[i];
@@ -30,36 +30,27 @@ public class bootcamp02 {
 	public static int[] populateArray (int left, int right, int count)
 	{
 		int [] newArray = new int[count];
-		int j=0;
+		
 		if(left>right)
 		{
-		for(int i =left;i>right;--i)
+		for(int i =newArray.length-1;i>=0;--i)
 		{ 
-			newArray[j] = i;
-			j++;
+			newArray[i] = (int)((left-right)*Math.random())+right;
+			
 		}
 		}
-		 else if(left<right)
+		 else if(left<=right)
 		{
 			
-			 for(int i =left;i<right;++i)
-				{
-				 newArray[j] = i;
-					j++;
+			 for(int i =0;i<newArray.length-1;--i)
+				{ 
+					newArray[i] = (int)((right-left)*Math.random())+left;
+					
 				}
 					
 				}
 		
-	   else
-	   {
-			
-			 for(int i =left;i<right;++i)
-				{
-				 newArray[j] = i;
-					j++;
-				}
-					
-				}
+	  
 		return newArray;
 		}	
 	// -----------------------------------
@@ -67,36 +58,26 @@ public class bootcamp02 {
 	public static double[] populateArray (double left, double right, int count)
 	{
 		double [] newArray = new double[count];
-		int j=0;
 		if(left>right)
 		{
-		for(double i =left;i>right;--i)
+		for(int i =newArray.length-1;i>=0;--i)
 		{ 
-			newArray[j] = i;
-			j++;
+			newArray[i] = ((left-right)*Math.random())+right;
+			
 		}
 		}
-		 else if(left<right)
+		 else if(left<=right)
 		{
 			
-			 for(double i =left;i<right;++i)
-				{
-				 newArray[j] = i;
-					j++;
+			 for(int i =0;i<newArray.length-1;--i)
+				{ 
+					newArray[i] = ((right-left)*Math.random())+left;
+					
 				}
 					
 				}
 		
-	   else
-	   {
-			
-			 for(double i =left;i<right;++i)
-				{
-				 newArray[j] = i;
-					j++;
-				}
-					
-				}
+	  
 		return newArray;
 		}	
 	// ---------------------------------

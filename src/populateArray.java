@@ -7,7 +7,7 @@ public class populateArray {
 	@Test
 	public void test() 
 	{
-		BootCamp02 test = new BootCamp02();
+		bootcamp02 test = new bootcamp02();
 	
 	}
 

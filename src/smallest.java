@@ -11,7 +11,7 @@ public class smallest {
 		int [] numbers ={4,1, 0, 5, 7 , 10, 34, -1};
 		int minium =test.smallest(numbers);
 		assertEquals(-1,minium);
-		assertEquals(4,minium);
+		//assertEquals(4,minium);
 		
 	}
 
