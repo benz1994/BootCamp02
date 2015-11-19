@@ -33,7 +33,7 @@ public class bootcamp02 {
 		int j=0;
 		if(left>right)
 		{
-		for(int i =left;i>right-1;--i)
+		for(int i =left;i>right;--i)
 		{ 
 			newArray[j] = i;
 			j++;
@@ -42,7 +42,7 @@ public class bootcamp02 {
 		 else if(left<right)
 		{
 			
-			 for(int i =left;i<right+1;++i)
+			 for(int i =left;i<right;++i)
 				{
 				 newArray[j] = i;
 					j++;
@@ -53,7 +53,7 @@ public class bootcamp02 {
 	   else
 	   {
 			
-			 for(int i =left;i<right+1;++i)
+			 for(int i =left;i<right;++i)
 				{
 				 newArray[j] = i;
 					j++;
@@ -70,7 +70,7 @@ public class bootcamp02 {
 		int j=0;
 		if(left>right)
 		{
-		for(double i =left;i>right-1;--i)
+		for(double i =left;i>right;--i)
 		{ 
 			newArray[j] = i;
 			j++;
@@ -79,7 +79,7 @@ public class bootcamp02 {
 		 else if(left<right)
 		{
 			
-			 for(double i =left;i<right+1;++i)
+			 for(double i =left;i<right;++i)
 				{
 				 newArray[j] = i;
 					j++;
@@ -90,7 +90,7 @@ public class bootcamp02 {
 	   else
 	   {
 			
-			 for(double i =left;i<right+1;++i)
+			 for(double i =left;i<right;++i)
 				{
 				 newArray[j] = i;
 					j++;
