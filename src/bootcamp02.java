@@ -42,7 +42,7 @@ public class bootcamp02 {
 		 else if(left<=right)
 		{
 			
-			 for(int i =0;i<newArray.length-1;--i)
+			 for(int i =0;i<newArray.length;++i)
 				{ 
 					newArray[i] = (int)((right-left)*Math.random())+left;
 					
@@ -69,7 +69,7 @@ public class bootcamp02 {
 		 else if(left<=right)
 		{
 			
-			 for(int i =0;i<newArray.length-1;--i)
+			 for(int i =0;i<newArray.length;++i)
 				{ 
 					newArray[i] = ((right-left)*Math.random())+left;
 					
