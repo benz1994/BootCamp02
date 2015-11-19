@@ -33,7 +33,7 @@ public class bootcamp02 {
 		int j=0;
 		if(left>right)
 		{
-		for(int i =left;i>right+1;--i)
+		for(int i =left;i>right-1;--i)
 		{ 
 			newArray[j] = i;
 			j++;
@@ -70,7 +70,7 @@ public class bootcamp02 {
 		int j=0;
 		if(left>right)
 		{
-		for(double i =left;i>right+1;--i)
+		for(double i =left;i>right-1;--i)
 		{ 
 			newArray[j] = i;
 			j++;
@@ -105,7 +105,7 @@ public class bootcamp02 {
 	{
 		int [] tmp= biggerArray;
 		 biggerArray = new int [2*biggerArray.length];
-		 for(int i =0; i<tmp.length;++i)
+		 for(int i =0; i<=tmp.length;++i)
 		 {
 			 biggerArray[i] = tmp[i];
 		 }
@@ -117,7 +117,7 @@ public class bootcamp02 {
 	{
 		int [] tmp = smallerArray;
 		smallerArray = new int [smallerArray.length/2];
-		 for(int i =0; i<smallerArray.length;++i)
+		 for(int i =0; i<=smallerArray.length;++i)
 		 {
 			 smallerArray[i] = tmp[i];
 		 }
@@ -130,7 +130,7 @@ public class bootcamp02 {
 	{
 		double tmp[] = biggerArray;
 		biggerArray = new double[biggerArray.length*2];
-		 for(int i =0; i<tmp.length;++i)
+		 for(int i =0; i<=tmp.length;++i)
 		 {
 			 biggerArray[i] = tmp[i];
 		 }
@@ -142,7 +142,7 @@ public class bootcamp02 {
 	{
 		double [] tmp = smallerArray;
 		smallerArray = new double [smallerArray.length/2];
-		 for(int i =0; i<smallerArray.length;++i)
+		 for(int i =0; i<=smallerArray.length;++i)
 		 {
 			 smallerArray[i] = tmp[i];
 		 }
